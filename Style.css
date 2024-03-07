@@ -468,13 +468,14 @@ body{
 .interaccion-recomendar-boton{
 	border: none;
 	opacity: 1;
-	border-radius:3px;
+	border-radius:5px;
 	padding: 13px;
 	margin-bottom: 0px;
 	background-color: #f7f7f7;
 }
 .interaccion-recomendar-boton:hover {
   background-color: #E0E0E0;
+	cursor: pointer;
 }
 .recomendar-boton-contenedor{
 	
@@ -536,6 +537,12 @@ body{
 	align-items: center;
 	border-radius: 25px;
 	margin-top: 5px;
+	background-color: #f7f7f7;
+	/*z-index: 20;*/
+}
+.informacion-descripcion-boton:hover{
+	background-color: #E0E0E0;
+	cursor: pointer;
 }
 .informacion-descripcion-texto{
 	display: flex;
@@ -553,6 +560,19 @@ body{
 .layer-derecho-imagen{
 	border-radius: 10px;
 	width: 100%;
+	/*
+	width: 20%;
+	top: 100px;
+	position: fixed;
+    top: 370px; /* Cambia esto según la posición deseada en la pantalla 
+    left: 77%; /* Puedes ajustar el valor según tu diseño 
+    transform: translateX(-50%);
+	/*
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+	*/
 }
 .encabezado-menu-icon1{
 	display: flex;
@@ -577,6 +597,13 @@ body{
 }
 .boton-cien:hover {
   background-color: #E0E0E0;
+	cursor: pointer;
+	/*
+	border-bottom-style: solid;
+	border-bottom: 2px;
+	border-bottom-style: solid;
+	border-color: #B1B1B1;
+  	*/
 }
 .social-interaccion-recomendar{
 	margin: 3px;
@@ -613,6 +640,7 @@ body{
 	display: flex;
 	align-items: center;
 	width: 100%;
+	padding-top: 10px;
 }
 .mitad-incio-contenidos{
 	display: flex;
@@ -628,5 +656,76 @@ body{
 	width: 100%;
 }
 .incio-contenidos-escribir{
+	display: flex;
+	width: 100%;
+}
+.texto-mitad{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.incio-publicar-icon{
+	display: flex;
+	justify-content: center;
+	width: 10%;
+}
+.incio-publicar-input{
+	width: 90%;
+	height: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.publicar-input-boton{
+	width: 95%;
+	height: 80%;
+	border: none;
+	border-style: solid;
+  border-color: #D5D5D5;
+  border-width: 1px;
+	border-radius: 50px;
+	background-color: #f7f7f7;
 	
+}
+.publicar-input-boton:hover{
+	background-color: #E0E0E0;
+	cursor: pointer;
+}
+.mitad-boton{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	background-color: #f7f7f7;
+}
+.mitad-boton:hover{
+	background-color: #E0E0E0;
+	cursor: pointer;
+}
+.imagen{
+	position: absolute;
+  top:20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 72px;
+  height:72px;
+	border-radius: 50px;
+	border-style: solid;
+  border-color: white;
+  border-width: 1px;
+}
+.permanece{
+	
+}
+.orden{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	padding-bottom: 10px;
+}
+.hre{
+	width: 80%;
+}
+.hrep{
+	width: 95%;
 }
